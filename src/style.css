@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Viteのデフォルト設定を強制リセット */
+body {
+    margin: 0;
+    background-color: #ffffff;
+    color: #1f2937;
+}
